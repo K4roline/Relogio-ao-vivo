@@ -9,14 +9,30 @@
 
 
 h1 {
-    font-size: 22px;
+    margin-top: 50px;
+    font-size: 30px;
     text-align:center;
-    color: black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .container {
-    height: 200px;
-    color: rgb(239, 202, 156);
+    background-color:white;
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 5%;
+  }
+
+  body {
+    background-color:rgb(179, 109, 25);
+  }
+
+  .relogio {
+    color: black;
   }
