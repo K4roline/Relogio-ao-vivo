@@ -33,6 +33,12 @@ h1 {
     background-color:rgb(179, 109, 25);
   }
 
-  .relogio {
-    color: black;
+  .mostrador {
+    margin-top: -600px;
+    font-size: 300px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
   }
