@@ -4,8 +4,12 @@
     padding: 0;
     border: 0;
     border-spacing: 0;
-    font-family: 'Roboto', sans-serif;
   }
+
+  html, body { 
+    height: 100%;
+    overflow: auto;
+   }
 
 
 h1 {
@@ -15,30 +19,36 @@ h1 {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 340px;
+    margin-right: 340px;
   }
 
   .container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     background-color:white;
     width: 900px;
     height: 500px;
+    margin-top: -180px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
     border-radius: 5%;
   }
-
+  
   body {
-    background-color:rgb(179, 109, 25);
+    background: linear-gradient(to left, rgb(108, 216, 75), rgb(36, 139, 112), rgb(18, 133, 35));
   }
 
-  .mostrador {
-    margin-top: -600px;
-    font-size: 300px;
-    text-align:center;
+  input {
+    color: black;
+    margin-top: 90px;
+    font-size: 100px;
+    text-align: center;
+    width: 850px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 340px;
+    margin-right: 340px;
   }
+  
