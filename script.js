@@ -16,5 +16,22 @@ function relogio() {
 }
     setInterval(relogio, 500)
 
+function carreagarimagem() {
+    var fotos = window.document.getElementById('fotos')
+    var img = window.document.getElementById(imagemdia)    
+    var img = window.document.getElementById(imagemtarde)   
+    var img = window.document.getElementById(iamgemnoite)   
 
-    
+
+    var data = new Date()
+    var hora = data.getHours()
+
+    if (hora >= 0 && hora < 12) {
+        img.scr = 'dia.jpg'
+    } else if (hora >= 12 && hora <= 18) {
+        img.scr = 'tarde.jpg'
+    } else {
+        img.scr = 'noite.jpg'
+    }
+}
+

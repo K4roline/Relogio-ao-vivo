@@ -21,6 +21,7 @@ h1 {
     font-weight: bold;
     margin-left: 340px;
     margin-right: 340px;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 
   .container {
@@ -34,6 +35,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
+    box-shadow: 10px 5px 5px black;
   }
   
   body {
