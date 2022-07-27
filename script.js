@@ -19,21 +19,26 @@ function relogio() {
 function carregarimagem() {
     var img = window.document.getElementById('imagemdia')    
     var img = window.document.getElementById('imagemtarde')   
-    var img = window.document.getElementById(`iamgemnoite`)   
+    var img = window.document.getElementById('imagemnoite')   
 
     var data = new Date()
     var hora = data.getHours()
 
     if (hora >= 0 && hora < 12) {
-        // img.scr = 'dia.jpg'
-        '<img id= imagemdia>'
+        img.innerHTML = '<img src="manha.jpg">'
     } else if (hora >= 12 && hora <= 18) {
-        '<img id= imagemtarde>'
+        img.innerHTML = '<img src="tarde.jpg">'
     } else {
-        '<img id= imagemnoite>'
+        img.innerHTML = '<img src="noite.jpg">'
     }
 
 }
 
-carregarimagem()
 
+// if (hora >= 0 && hora < 12) {
+//     img.scr = 'manha.jpg'
+// } else if (hora >= 12 && hora <= 18) {
+//     img.scr = 'tarde.jpg'
+// } else {
+//     img.scr = 'noite.jpg'
+// }
