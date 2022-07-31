@@ -33,5 +33,6 @@ function carregarimagem() {
 
 function inicio() {
     relogio()
+    setInterval(relogio, 500)
     carregarimagem()
 }
