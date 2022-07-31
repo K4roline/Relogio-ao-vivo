@@ -21,7 +21,7 @@ h1 {
     font-weight: bold;
     margin-left: 340px;
     margin-right: 340px;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: 0.1em 0.1em 0.2em #0000007a;
   }
 
   .container {
@@ -35,7 +35,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px #00000030;;
   }
   
   body {
@@ -60,4 +60,6 @@ img {
   height: 250px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 200px;
+  box-shadow: 10px 5px 5px #00000030;;
 }
